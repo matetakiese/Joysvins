@@ -1,6 +1,7 @@
 import React from "react";
 import { Searchbar } from "./Searchbar";
 import { GiShoppingCart } from "react-icons/gi";
+import { DialogConnexion } from "./LoginButton";
 
 export  function Navbar() {
     return (
@@ -14,7 +15,7 @@ export  function Navbar() {
          <Searchbar  />
          </div>
          <div className="m-30 text-base font-semibold text-black  ">
-            <a href="/se connecter">Se connecter</a> 
+            <DialogConnexion /> 
          </div>
          <div className="">
          <a className="m-0 py-0" href="/GiShoppingCart"><GiShoppingCart size={"4rem"} color="#940a0a"  /></a>

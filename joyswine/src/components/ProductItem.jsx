@@ -1,12 +1,22 @@
 import React from 'react';
 
-const ProductItem = ({ product }) => {
+const ProductItem = ({ product, addToCart }) => {
+  const handleAddToCart = () => {
+    addToCart(product);
+  };
+
   return (
-    <div className="p-4 border rounded-md">
-      <img src={product.image} alt={product.name} className="w-32 h-32 object-cover" />
+    <div className="p-4 border rounded-md ">
+      <img src={product.image} alt={product.name} className="object-cover w-24 " />
       <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
       <p className="text-gray-600">{product.description}</p>
-      <p className="mt-2 font-bold text-gray-800">${product.price}</p>
+      <p className="mt-2 font-bold text-gray-800">{product.price}$</p>
+      <button 
+        onClick={handleAddToCart} 
+        className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Ajouter au panier
+      </button>
     </div>
   );
 };
