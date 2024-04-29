@@ -1,10 +1,16 @@
 
-export function Accueil(){
-return (
 
-    <div>
+function Siderbar() {
+    return (
+        <>
+            <div className="bg-gray-500 w-64 h-full fixed left-0 top-1/4 ">
+                <div>
+                    dkjqfjdhqjh
+                </div>
+            </div>
+        </>
 
-    </div>
-)
-
+    );
 }
+
+export default Siderbar

@@ -15,10 +15,10 @@ const Auth = () => {
 
   const handleAuthAction = () => {
     if (isLogin) {
-      // Code pour gérer la connexion
+      
       console.log('Connexion avec :', email, password);
     } else {
-      // Code pour gérer l'inscription
+      
       console.log('Inscription avec :', email, password);
     }
   };

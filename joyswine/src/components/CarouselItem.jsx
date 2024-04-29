@@ -7,7 +7,7 @@ return(
     <div className="">
     <Carousel autoSlide={true}>
      {slides.map((s) => (
-       <img src={s}  />
+       <img src={s} />
      ))}
     </Carousel>
    </div>
