@@ -22,9 +22,9 @@ useEffect(() => {
 return ( 
 <>
 
-<div className="overflow-hidden relative">
+<div className="overflow-hidden relative ">
   
-<div className="flex transition-transform ease-out duration-500 " 
+<div className="flex transition-transform ease-out duration-500" 
 style={{ transform: `translateX(-${curr * 100}%)` }}
 >{slides}
 </div>
@@ -37,7 +37,7 @@ style={{ transform: `translateX(-${curr * 100}%)` }}
     </button>
 </div>
 
-<div className="absolute bottom-4 right-0 left-0" >
+<div className="absolute bottom-4 right-0 left-0 " >
 <div className="flex items-center justify-center gap-2">
 {slides.map((_, i) => (
 <div className={

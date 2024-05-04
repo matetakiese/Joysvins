@@ -1,15 +1,14 @@
-import { Navbar } from "@/components/navbar"
-import { Articls } from "@/components/Artlicles"
-import Siderbar  from "@/components/sidebar"
-
+import { Navbar } from "@/components/navbar";
+import { Articls } from "@/components/Artlicles";
+import Footer from "@/components/Footer";
 
 export default function Home () {
-    return(
+    return (
         <main className="">
-         <Navbar />
-         <Articls/>
-         <Siderbar />
-         
+            <Navbar />
+            <Articls /> 
+            <Footer />
+    
         </main>
     )
 }
