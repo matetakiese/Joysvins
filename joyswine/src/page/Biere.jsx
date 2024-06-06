@@ -1,7 +1,8 @@
 import { Navbar } from "@/components/navbar";
-import { BiereProducts } from "@/components/BiereProducts";
+// import { BiereProducts } from "@/components/BiereProducts";
 import CollectionTwo from "@/components/CollectionTwo";
 import Footer from "@/components/Footer";
+import BiereList from "@/components/BiereList";
 
 
 export function Biere () {
@@ -21,7 +22,8 @@ return (
     </div>
     
     <CollectionTwo />
-<BiereProducts />
+{/* <BiereProducts /> */}
+<BiereList/>
             </div>
             <Footer />
     </div>

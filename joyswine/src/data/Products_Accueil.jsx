@@ -1,11 +1,13 @@
+import agneau from "../image/vins/agneau.png"
 export const Products_Accueil  = [
 
 {
 id: 1,
-image: "src/image/vins/agneau-selection-bordeaux-rouge-2020-baron-philippe-de-rothschild.png",
+image: "agneau",
 name: "Mipe",
 description: "Un très bel assemblage de Pinot Noir et de Chardonnay pour offrir un Champagne labellis",
 price: 33,
+cover: agneau
 },
 
 {
